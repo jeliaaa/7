@@ -54,3 +54,6 @@ body{
     object-fit: cover;
     object-position: left;
 }
+.team-member p{
+    display: none;
+}
