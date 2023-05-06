@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.team{
+    text-align: center;
+    padding: 32px;
+}
+.team-member{
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+}
+.team-member img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: left;
+}
+.model{
+    display: none;
+    position: fixed;
+    z-index: 1; /*999*/
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+.model-content{
+    background-color: aliceblue;
+    margin: 15% auto;
+    padding: 30px;
+    border: 1px solid black;
+    width: 40%;
+    position: relative;
+}
+#close-btn{
+    color: darkmagenta;
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+}
+#close-btn:hover, #close-bitn:focus{
+    color: crimson;
+    text-decoration: none;
+}
+#model-img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: left;
+}
